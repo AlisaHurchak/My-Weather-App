@@ -3,40 +3,53 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/style.css" />
     <title>My Daily Forecast</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city..." required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Malaga</h1>
-        <p>
-          Thursday 18:51, clear sky
-          <br />
-          Humidity: 43%, Wind: 5.14km/h
-        </p>
-      </div>
-      <div>
-        <span>☀️</span>
-        <span>12</span>
-        <span>°C</span>
-      </div>
-    </main>
+    <div class="container">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city..." required />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>Malaga</h1>
+          <p>
+            Thursday 18:51, clear sky
+            <br />
+            Humidity: 43%, Wind: 5.14km/h
+          </p>
+        </div>
+        <div>
+          <span>☀️</span>
+          <span>12</span>
+          <span>°C</span>
+        </div>
+      </main>
 
-    <footer>
-      Coded by
-      <a href="https://github.com/AlisaHurchak" target="_blank"
-        >Alisa Hurchak</a
-      >
-      and hosted on
-      <a href="https://github.com/AlisaHurchak/My-Weather-App" target="_blank">
-        GitHub
-      </a>
-    </footer>
+      <footer>
+        Coded by
+        <a href="https://github.com/AlisaHurchak" target="_blank"
+          >Alisa Hurchak</a
+        >
+        and hosted on
+        <a
+          href="https://github.com/AlisaHurchak/My-Weather-App"
+          target="_blank"
+        >
+          GitHub
+        </a>
+      </footer>
+    </div>
+    <script href="src/index.js"></script>
   </body>
 </html>
