@@ -4,9 +4,34 @@ body {
 }
 .container {
   background: white;
-  width: 80%;
+  width: 600px;
   margin: 50px auto;
   padding: 35px;
   border-radius: 10px;
   box-shadow: rgba(67, 62, 62, 0.09) 0 20px 40px;
+}
+.search-form {
+  background-color: #f7f5fd;
+  width: 76%;
+  padding: 11px;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+}
+.submit-form {
+  background-color: rgb(156, 67, 239);
+  width: 22%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  margin-left: 7px;
+  font-size: 15px;
+}
+header {
+  border-bottom: 1px solid rgb(223, 209, 237);
+  padding-bottom: 30px;
+}
+footer {
+  border-top: 1px solid rgb(223, 209, 237);
 }
