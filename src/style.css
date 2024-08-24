@@ -10,6 +10,9 @@ body {
   border-radius: 10px;
   box-shadow: rgba(67, 62, 62, 0.09) 0 20px 40px;
 }
+a {
+  color: blueviolet;
+}
 .search-form {
   background-color: #f7f5fd;
   width: 76%;
@@ -33,5 +36,48 @@ header {
   padding-bottom: 30px;
 }
 footer {
+  text-align: center;
+  color: rgb(5, 5, 5);
+  font-size: 14px;
+  opacity: 0.8;
   border-top: 1px solid rgb(223, 209, 237);
+  padding-top: 25px;
+}
+.weather-data-store {
+  display: flex;
+  justify-content: space-between;
+}
+main {
+  padding: 25px 0;
+}
+.weather-search-city {
+  margin: 0;
+  font-size: 36px;
+  line-height: 49px;
+}
+.city-data {
+  font-size: 17px;
+  line-height: 23px;
+  color: rgb(40, 40, 50);
+  opacity: 0.8;
+}
+.city-data strong {
+  color: rgb(233, 22, 92);
+}
+.weather-app-current-weather {
+  display: flex;
+}
+.weather-app-current-temp {
+  font-size: 70px;
+  font-weight: 600px;
+  margin-left: 6px;
+}
+.weather-app-emoji {
+  font-size: 38px;
+  margin-top: 18px;
+}
+.celcius {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
 }
