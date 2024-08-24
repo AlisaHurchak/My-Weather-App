@@ -69,12 +69,13 @@ main {
 }
 .weather-app-current-temp {
   font-size: 70px;
-  font-weight: 600px;
+  font-weight: 80px;
   margin-left: 6px;
 }
 .weather-app-emoji {
-  font-size: 38px;
-  margin-top: 18px;
+  width: 70px;
+  height: 70px;
+  margin-top: 15px;
 }
 .celcius {
   font-size: 18px;

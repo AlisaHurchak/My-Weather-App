@@ -10,6 +10,9 @@ function displayWeatherData(response) {
   let timeElement = document.querySelector("#current-date");
   let date = new Date(response.data.time * 1000);
 
+  let iconElement = document.querySelector("#weather-app-icon");
+  iconElement.innerHTML = `<img  src="${response.data.condition.icon_url}" class="weather-app-emoji"/>`;
+
   cityElement.innerHTML = response.data.city;
   timeElement.innerHTML = formatDate(date);
   descriptionElement.innerHTML = response.data.condition.description;
