@@ -31,6 +31,10 @@ a {
   margin-left: 7px;
   font-size: 15px;
 }
+.submit-form:hover {
+  background-color: rgb(183, 18, 249);
+  cursor: pointer;
+}
 header {
   border-bottom: 1px solid rgb(223, 209, 237);
   padding-bottom: 30px;
@@ -80,5 +84,29 @@ main {
 .celcius {
   font-size: 18px;
   font-weight: bold;
+  margin: 20px 0 20px;
+}
+.weather-forecast-container {
+  display: flex;
+  justify-content: space-between;
   margin-top: 10px;
+}
+.forecast-day-first {
+  text-align: center;
+  font-size: 15px;
+  opacity: 0.8;
+  line-height: 28px;
+}
+.forecast-emoji {
+  text-align: center;
+  font-size: 25px;
+  margin: 8px;
+}
+.forecast-temperature {
+  text-align: center;
+  color: rgb(233, 22, 92);
+  padding: 10px;
+}
+.forecast-weather-temps {
+  padding: 8px;
 }

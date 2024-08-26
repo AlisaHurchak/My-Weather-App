@@ -52,7 +52,30 @@ function handleSearchForm(event) {
   searchCity(searchData.value);
 }
 
+function displayForecastData() {
+  let forecastDays = ["Tue", "Wed", "Thu", "Fri", "Sat"];
+  let forecastHtml = "";
+
+  forecastDays.forEach(function (day) {
+    forecastHtml =
+      forecastHtml +
+      `<div class="weather-forecast-one">
+            <div class="forecast-day-first">${day}</div>
+            <div class="forecast-emoji">☀️</div>
+            <div class="forecast-temperature">
+              <span class="forecast-weather-temps">
+                <strong>12 °C </strong>
+              </span>
+              <span class="weather-forecast-temps">9°C</span>
+            </div>
+          </div>
+          </div>`;
+  });
+  let forecastElement = document.querySelector("#forecast");
+  forecastElement.innerHTML = forecastHtml;
+}
 let searchInputElement = document.querySelector("#search-input");
 searchInputElement.addEventListener("submit", handleSearchForm);
 
 searchCity("Malaga");
+displayForecastData();
